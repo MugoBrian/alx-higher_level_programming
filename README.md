@@ -1,13 +1,9 @@
 # Higher level programming with Python
-This repository contains shell,C and python scripts
+This repository contains shell,C and python folders mainly for learning in Alx Holberton
 # Files (Scripts)
-[0-run](./0-run) - shell script that runs python scripts
+[0x00-pyhton-hello_world](./0x00-python-hello_world) - python hello world intro
 
-[1-run_inline](./1-run_inline) - shell script that runs python code
-
-[.2-print.py](./2-print.py) - python scripts that prints
-
-... and many more other scripts
+... and many more other folders
 
 # Author
 Mugo Brian
