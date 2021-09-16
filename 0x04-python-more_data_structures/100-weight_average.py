@@ -1,7 +1,13 @@
 #!/usr/bin/python3
 def weight_average(my_list=[]):
-    if len(my_list) is 0:
+
+    if my_list == [] or my_list is None:
         return 0
-    a = list(map(list, zip(*my_list)))
-    b = [x * y for x, y in zip(a[0], a[1])]
-    return sum(b) / sum(a[1])
+
+    dividendo = 0
+    divisor = 0
+    for list_idx in my_list:
+        dividendo += list_idx[0] * list_idx[1]
+        divisor += list_idx[1]
+
+    return dividendo/divisor
